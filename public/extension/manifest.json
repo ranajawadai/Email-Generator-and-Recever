@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MailTurbo - Instant Temp Mail",
+  "version": "1.0.0",
+  "description": "Generate disposable email addresses and receive emails instantly.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.mail.tm/*"]
+}
